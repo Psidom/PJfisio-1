@@ -1,5 +1,5 @@
 .Cadastro{
-	display: block;
+	display: inline-block;
 	color: #fff;
     font-size: 18px;
     background-color: #ff6666;
@@ -10,7 +10,7 @@
 .Cadastro:hover{
 	background-color: #ff3333;
 	color: #fff;
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 }
 .forcad{
