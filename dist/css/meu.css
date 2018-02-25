@@ -10,7 +10,7 @@
 .Cadastro:hover{
 	background-color: #ff3333;
 	color: #fff;
-	display: inline-block;
+	display: block;
 	text-decoration: none;
 }
 .forcad{
