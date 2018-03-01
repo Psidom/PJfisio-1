@@ -1,19 +1,21 @@
-.Cadastro{
-	display: inline-block;
-	color: #fff;
+.Cadastro {
+    display: inline-block;
+    color: #fff;
     font-size: 18px;
     background-color: #ff6666;
     border-radius: 25px;
     text-align: center;
-    padding: 5px;   
+    padding: 5px;
 }
-.Cadastro:hover{
-	background-color: #ff3333;
-	color: #fff;
-	display: inline-block;
-	text-decoration: none;
+
+.Cadastro:hover {
+    background-color: #ff3333;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
 }
-.forcad{
+
+.forcad {
     display: flex;
     width: 40%;
     height: 34px;
@@ -26,8 +28,9 @@
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.forcadctrl{
-	display: flex;
+
+.forcadctrl {
+    display: flex;
     width: auto;
     height: 34px;
     padding: 6px 12px;
@@ -38,39 +41,40 @@
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
-
-}
-.cidade{
-	width: auto;
-
 }
 
-div.senha{
-	padding-top: 10px;
+.cidade {
+    width: auto;
 }
-.senha{
-	width: auto;
-}
-.formulario{
-	width: 500px;
-	height: 100%;
-  min-height: 100%;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  background-color:  #009900;
-}
-.setor{
-	 display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
 
+div.senha {
+    padding-top: 10px;
+}
+
+.senha {
+    width: auto;
+}
+
+.formulario {
+    width: 500px;
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #009900;
+}
+
+.setor {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
