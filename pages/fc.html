@@ -23,7 +23,7 @@
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!--Meu CSS --> 
+    <!--Meu CSS -->
     <link href="../dist/css/meu.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -379,58 +379,71 @@
                     </div>
                     <!-- /.col-lg-12 -->
                 </div>
-                <!-- /.row -->  
+                <!-- /.row -->
             </div>
             <!-- /.container-fluid -->
             <section class="setor">
-                <div class="formulario">
-                    <div>
-                           <label>Nome</label>
-                           <input class="forcad">
-                           <label>Sobrenome</label>
-                           <input class="forcad">
-                           <label>CPF</label>
-                           <input class="forcad">
-                           <label>Instituição de Ensino</label>
-                           <input class="forcad">
-                           <label>E-mail</label>
-                           <input class="forcad">
-                        <div class="form-group">
-                            <div class="radio">
-                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="Professor" checked>Professor
-                                 </label>   
+                <fieldset>
+                    <form action="">
+                        <div class="formulario">
+                            <div>
+                                <label>Nome</label>
+                                <input class="forcad">
+                                <label>Sobrenome</label>
+                                <input class="forcad">
+                                <label>CPF</label>
+                                <input class="forcad">
+                                <label>Instituição de Ensino</label>
+                                <input class="forcad">
+                                <label>E-mail</label>
+                                <input class="forcad">
+                                </br>
+                                <fieldset class="alnprof">
+                                    <legend class="legend1">Tipo de Usuário</legend>
+                                    <div class="form-group">
+                                        <div class="radio">
+                                            <label>
+                                                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="Professor" checked>Professor
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="Aluno" checked>Aluno
+                                             </label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                </br>
+                                <div class="form-group cidade">
+                                    <label>Cidade</label>
+                                    <select class="forcadctrl">
+                                                         <option>Salvador</option>
+                                                         <option>São Paulo</option>
+                                                         <option>Rio de Janeiro</option>
+                                                         <option>Minas Gerais</option>
+                                                         <option>Brasilia</option>
+                                                    </select>
+                                </div>
+                                <div class="form-group senha">
+                                    <label>Senha</label>
+                                    <input class="forcad senha" placeholder="Senha" name="password" type="password" value="">
+                                    <label>Confirmar senha</label>
+                                    <input class="forcad senha" placeholder="Senha" name="password" type="password" value="">
+                                </div>
+                                <div>
+                                    <label>Anexar Arquivo</label>
+                                    <input type="file">
+                                </div>
+                                </br>
+                                <input type="submit" onclick="alert('Eu Sou o Batman')" value="Enviar">
                             </div>
-                            <div class="radio">
-                                 <label>
-                                   <input type="radio" name="optionsRadios" id="optionsRadios2" value="Aluno" checked>Aluno
-                                </label>   
-                            </div>
+                            <!-- /#Conteudo do Formulario -->
                         </div>
-                        <div class="form-group cidade">
-                            <label>Cidade</label>
-                                <select class="forcadctrl">
-                                     <option>Salvador</option>
-                                     <option>São Paulo</option>
-                                     <option>Rio de Janeiro</option>
-                                     <option>Minas Gerais</option>
-                                     <option>Brasilia</option>
-                                </select>
-                        </div>
-                        <div class="form-group senha">
-                            <label>Senha</label>
-                            <input class="forcad senha" placeholder="Senha" name="password" type="password" value="">
-                            <label>Confirmar senha</label>
-                            <input class="forcad senha" placeholder="Senha" name="password" type="password" value="">    
-                        </div>
-                        <div>
-                            <label>Anexar Arquivo</label>
-                            <input type="file">    
-                        </div>                   
-                    </div>
-                    <!-- /#Conteudo do Formulario -->
-                </div>
-                <!-- /#div principal do Formulario -->      
+                        <!-- /#div principal do Formulario -->
+                    </form>
+                    <!-- /#Final do Formulario -->
+                </fieldset>
+                <!-- /#Final do Fieldset -->
             </section>
             <!-- /#setor do conteudo da pagina -->
         </div>
