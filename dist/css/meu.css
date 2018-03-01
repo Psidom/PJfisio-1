@@ -78,7 +78,7 @@
         justify-content: center;
     }
     
-    fieldset {
+    .fieldform {
         min-width: 0;
         padding: 0;
         margin: 0;
