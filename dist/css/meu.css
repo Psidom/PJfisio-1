@@ -55,7 +55,7 @@
         width: auto;
     }
     
-    .formulario {
+    .divformulario {
         width: 500px;
         height: 100%;
         min-height: 100%;
@@ -85,6 +85,17 @@
         border: 2px solid #555;
         border-radius: 10px;
     }
+    
+    .fieldform2 {
+        width: 600px;
+        min-width: 0;
+        padding: 20px;
+        margin: 0;
+        border: 2px solid #555;
+        border-radius: 10px;
+    }
+    
+    #procedimentos {}
     
     .alnprof {
         min-width: 0;
