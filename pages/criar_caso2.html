@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Demonstração de Paginas Para o Projeto de Fisio">
+    <meta name="author" content="Cristian Tinôco">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!--Meu CSS -->
+    <link href="../dist/css/meu.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Read All Messages</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-messages -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 1</strong>
+                                        <span class="pull-right text-muted">40% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 2</strong>
+                                        <span class="pull-right text-muted">20% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 3</strong>
+                                        <span class="pull-right text-muted">60% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 4</strong>
+                                        <span class="pull-right text-muted">80% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Tasks</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-tasks -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                    <span class="pull-right text-muted small">12 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-tasks fa-fw"></i> New Task
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Alerts</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+
+                </div>
+                <!-- /.sidebar-collapse Menu Lateral-->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Cadastrar Caso</h1>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                    <section>
+                        <div id="procedimentos">
+                            <fieldset class="fieldform2">
+                                <h2 class="page-header">Exame Fisico</h2>
+                                <form action="#">
+                                    <div class="form-group">
+                                        <label for="">Patologia</label>
+                                        <select class="forcadctrl">
+                                             <option>Exemplo3</option>
+                                             <option>exemplo58</option>
+                                             <option>Adicionar.??</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="tempodelesao">Tempo de Lesão</label>
+                                        <input type="number" name="tempodelesao" id="tempodelesao">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Tipo de Lesão</label>
+                                        <select class="forcadctrl">
+                                                 <option>Exemplo3</option>
+                                                 <option>exemplo58</option>
+                                                 <option>Adicionar.??</option>
+                                            </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="temperatura">Temperatura</label>
+                                        <input type="number" name="temperatura" id="temperatura">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pressao">Pressão Arterial</label>
+                                        <input type="number" name="pressao" id="pressao">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Sensibilidade</label>
+                                        <select class="forcadctrl">
+                                                     <option>Preservada</option>
+                                                     <option>Diminuída</option>
+                                                     <option>Aumentada</option>
+                                                </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Forçar Muscular</label>
+                                        <select class="forcadctrl">
+                                                         <option>0</option>
+                                                         <option>1</option>
+                                                         <option>2</option>
+                                                         <option>3</option>
+                                                         <option>4</option>
+                                                         <option>5</option>
+                                                    </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <fieldset class="fieldform3">
+                                            <legend class="legend_aux">ADM</legend>
+                                            <div class="form-group">
+                                                <label for="ombro">Ombro</label>
+                                                <input type="checkbox" name="ombro" id="ombro">
+                                                <select class="forcadctrl">
+                                                                <option>Flexão</option>
+                                                                <option>Extensão</option>
+                                                                <option>Adução</option>
+                                                                <option>Rotação Interna</option>
+                                                                <option>Rotação Externa</option>
+                                                 </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="cotovelo">Cotovelo</label>
+                                                <input type="checkbox" name="cotovelo" id="cotovelo">
+                                                <select class="forcadctrl">
+                                                        <option>Flexão</option>
+                                                        <option>Extensão</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="radiolnar">Radiolnar</label>
+                                                <input type="checkbox" name="radiolnar" id="radiolnar">
+                                                <select class="forcadctrl">
+                                                    <option>Pronação</option>
+                                                    <option>Supinação</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="punho">Punho</label>
+                                                <input type="checkbox" name="punho" id="punho">
+                                                <select class="forcadctrl">
+                                                    <option>Flexão</option>
+                                                    <option>Extensão</option>
+                                                    <option>Adução</option>
+                                                    <option>Abdução</option>
+                                                 </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="carpodopolegar">Carpometacárpica do Polegar</label>
+                                                <input type="checkbox" name="carpodopolegar" id="carpodopolegar">
+                                                <select class="forcadctrl">
+                                                        <option>Flexão</option>
+                                                        <option>Extensão</option>
+                                                        <option>Abdução</option>
+                                                     </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="metacarpofalanginas">Metacarpofalanginas</label>
+                                                <input type="checkbox" name="metacarpofalanginas" id="metacarpofalanginas">
+                                                <select class="forcadctrl">
+                                                        <option>Flexão</option>
+                                                        <option>Extensão</option>
+                                                        <option>Adução</option>
+                                                        <option>Abdução</option>
+                                                     </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="interfalangicas">Interfalângicas Proximas</label>
+                                                <input type="checkbox" name="interfalangicas" id="interfalangicas">
+                                                <select class="forcadctrl">
+                                                            <option>Flexão</option>
+                                                            <option>Extensão</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="interfalangicasdistais">Interfalângicas Distais</label>
+                                                <input type="checkbox" name="interfalangicasdistais" id="interfalangicasdistais">
+                                                <select class="forcadctrl">
+                                                        <option>Flexão</option>
+                                                        <option>Flexão Int.do Polegar</option>
+                                                        <option>Extensão Int. do Polegar</option>
+                                                        <option>Extensão Int. 2 ao 5 dedo</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="quadril">Quadril</label>
+                                                <input type="checkbox" name="quadril" id="quadril">
+                                                <select class="forcadctrl">
+                                                        <option>Flexão</option>
+                                                        <option>Extensão</option>
+                                                        <option>Adução</option>
+                                                        <option>Abdução</option>
+                                                        <option>Rotação Interna</option>
+                                                        <option>Rotação Externa</option>
+                                                     </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="joelho">Joelho</label>
+                                                <input type="checkbox" name="joelho" id="joelho">
+                                                <select class="forcadctrl">
+                                                            <option>Flexão</option>
+                                                            <option>Extensão</option>
+                                                            </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="tornozelo">Tornozelo</label>
+                                                <input type="checkbox" name="tornozelo" id="tornozelo">
+                                                <select class="forcadctrl">
+                                                    <option>Flexão Dorsal</option>
+                                                    <option>Flexão Plantar</option>
+                                                    <option>Eversão</option>
+                                                    <option>Inversão</option>
+                                                 </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="metatarsofalangianas">Metatarsofalangianas</label>
+                                                <input type="checkbox" name="metatarsofalangianas" id="metatarsofalangianas">
+                                                <select class="forcadctrl">
+                                                                <option>Flexão do Hálux</option>
+                                                                <option>Extensão do Hálux</option>
+                                                                <option>Flexão do 2º ao 5º Dedo</option>
+                                                                <option>Extensão do 2º ao 5º Dedo</option>
+                                                        </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="interfalangianas">Interfalangianas</label>
+                                                <input type="checkbox" name="interfalangianas" id="interfalangianas">
+                                                <select class="forcadctrl">
+                                                                    <option>Flexão (I) do Hálux</option>
+                                                                    <option>(IP) do 2º ao 5º Dedo</option>
+                                                                    <option>(ID) do 2º ao 5º Dedo</option>
+                                                            </select>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Eficteriano">Controle Eficteriano</label>
+                                        <input type="text" name="Eficteriano" id="Eficteriano">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Ventilação</label>
+                                        <select class="forcadctrl">
+                                                             <option>Espontânea</option>
+                                                             <option>Invasiva</option>
+                                                             <option>Não Ivasiva</option>
+                                             </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="hemograma">Hemograma</label>
+                                        <input type="number" name="hemograma" id="hemograma">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="raiox">Raio-X</label>
+                                        <input type="file" name="raiox" id="raiox">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Escala MIF</label>
+                                        <select class="forcadctrl">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                            </select>
+                                    </div>
+                                    <Label>Procedimentos Iniciais</Label>
+                                    <div class="form-group">
+                                        <textarea name="procedimentosiniciais" id="procedimentosiniciais" cols="30" rows="5"></textarea>
+                                    </div>
+                                    <input type="submit" class="btn btn-default" value="Avançar">
+                                </form>
+                                <!-- Fim do Formulario -->
+                            </fieldset>
+                            <!-- Fim do fieldset -->
+                        </div>
+                        <!-- Conteudo da Pagina -->
+                    </section>
+                    <!-- Setor da pagina-->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
