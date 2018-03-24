@@ -465,14 +465,14 @@
                                                         <option>Extensão</option>
                                                 </select>
                                             </div>
-                                            <div class="form-group">
+                                            <!-- <div class="form-group">
                                                 <label for="radiolnar">Radiolnar</label>
                                                 <input type="checkbox" name="radiolnar" id="radiolnar">
                                                 <select class="forcadctrl">
                                                     <option>Pronação</option>
                                                     <option>Supinação</option>
                                                 </select>
-                                            </div>
+                                            </div> -->
                                             <div class="form-group">
                                                 <label for="punho">Punho</label>
                                                 <input type="checkbox" name="punho" id="punho">
@@ -483,7 +483,7 @@
                                                     <option>Abdução</option>
                                                  </select>
                                             </div>
-                                            <div class="form-group">
+                                            <!-- <div class="form-group">
                                                 <label for="carpodopolegar">Carpometacárpica do Polegar</label>
                                                 <input type="checkbox" name="carpodopolegar" id="carpodopolegar">
                                                 <select class="forcadctrl">
@@ -491,8 +491,8 @@
                                                         <option>Extensão</option>
                                                         <option>Abdução</option>
                                                      </select>
-                                            </div>
-                                            <div class="form-group">
+                                            </div> -->
+                                            <!--<div class="form-group">
                                                 <label for="metacarpofalanginas">Metacarpofalanginas</label>
                                                 <input type="checkbox" name="metacarpofalanginas" id="metacarpofalanginas">
                                                 <select class="forcadctrl">
@@ -501,8 +501,8 @@
                                                         <option>Adução</option>
                                                         <option>Abdução</option>
                                                      </select>
-                                            </div>
-                                            <div class="form-group">
+                                            </div> -->
+                                            <!-- <div class="form-group">
                                                 <label for="interfalangicas">Interfalângicas Proximas</label>
                                                 <input type="checkbox" name="interfalangicas" id="interfalangicas">
                                                 <select class="forcadctrl">
@@ -519,7 +519,7 @@
                                                         <option>Extensão Int. do Polegar</option>
                                                         <option>Extensão Int. 2 ao 5 dedo</option>
                                                     </select>
-                                            </div>
+                                            </div> -->
                                             <div class="form-group">
                                                 <label for="quadril">Quadril</label>
                                                 <input type="checkbox" name="quadril" id="quadril">
@@ -550,7 +550,7 @@
                                                     <option>Inversão</option>
                                                  </select>
                                             </div>
-                                            <div class="form-group">
+                                            <!-- <div class="form-group">
                                                 <label for="metatarsofalangianas">Metatarsofalangianas</label>
                                                 <input type="checkbox" name="metatarsofalangianas" id="metatarsofalangianas">
                                                 <select class="forcadctrl">
@@ -568,12 +568,12 @@
                                                                     <option>(IP) do 2º ao 5º Dedo</option>
                                                                     <option>(ID) do 2º ao 5º Dedo</option>
                                                             </select>
-                                            </div>
+                                            </div> -->
                                         </fieldset>
                                     </div>
                                     <div class="form-group">
                                         <label for="eva">Escala Visual Analogica</label>
-                                        <input type="range" min="0" max="10" value="0" class="slider" name="eva" id="eva">
+                                        <input type="range" min="0" max="10" class="slider" name="eva" id="eva">
                                         <p>Valor: <span id="evav"></span></p>
                                     </div>
                                     <div class="form-group">
@@ -654,6 +654,15 @@
 
         slider.oninput = function() {
             output.innerHTML = this.value;
+            if (slider.value <= 3) {
+                slider.style.backgroundColor = "#99ff99";
+            } else if (slider.value == 5) {
+                slider.style.backgroundColor = "#ffff99";
+            } else if (slider.value <= 7) {
+                slider.style.backgroundColor = "#ffcc99";
+            } else if (slider.value >= 8) {
+                slider.style.backgroundColor = "#ff0000";
+            }
         }
     </script>
 
