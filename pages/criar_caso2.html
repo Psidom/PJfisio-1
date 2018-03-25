@@ -313,6 +313,16 @@
                                         <input type="number" name="pressao" id="pressao">
                                     </div>
                                     <div class="form-group">
+                                        <label for="cardiaca">Frequência Cardíaca</label>
+                                        <input type="number" name="cardiaca" id="cardiaca">
+                                        <span>BPM</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="respiratoria">Frequência Respiratória</label>
+                                        <input type="number" name="respiratoria" id="respiratoria">
+                                        <span>IPM</span>
+                                    </div>
+                                    <div class="form-group">
                                         <label for="">Sensibilidade</label>
                                         <select class="forcadctrl">
                                                      <option>Preservada</option>
@@ -446,25 +456,43 @@
                                     <div class="form-group">
                                         <fieldset class="fieldform3">
                                             <legend class="legend_aux">ADM</legend>
-                                            <div class="form-group">
-                                                <label for="ombro">Ombro</label>
-                                                <input type="checkbox" name="ombro" id="ombro">
-                                                <select class="forcadctrl">
-                                                                <option>Flexão</option>
-                                                                <option>Extensão</option>
-                                                                <option>Adução</option>
-                                                                <option>Rotação Interna</option>
-                                                                <option>Rotação Externa</option>
-                                                 </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="cotovelo">Cotovelo</label>
-                                                <input type="checkbox" name="cotovelo" id="cotovelo">
-                                                <select class="forcadctrl">
-                                                        <option>Flexão</option>
-                                                        <option>Extensão</option>
-                                                </select>
-                                            </div>
+                                            <fieldset class="fieldform3">
+                                                <div class="form-group">
+                                                    <label for="ombro">Ombro</label>
+                                                    <input type="checkbox" name="ombro" id="ombro">
+                                                    <br/><br/>
+                                                    <label for="flexao">Flexão</label>
+                                                    <input type="number" name="flexao" id="flexao">
+                                                    <br/><br/>
+                                                    <label for="extensao">Extensão</label>
+                                                    <input type="number" name="extensao" id="extensao">
+                                                    <br/><br/>
+                                                    <label for="aducao">Adução</label>
+                                                    <input type="number" name="aducao" id="aducao">
+                                                    <br/><br/>
+                                                    <label for="rotacao">Rotação</label>
+                                                    <input type="number" name="rotacao" id="rotacao">
+                                                    <br/><br/>
+                                                    <label for="interna">Interna</label>
+                                                    <input type="number" name="interna" id="interna">
+                                                    <br/><br/>
+                                                    <label for="externa">Externa</label>
+                                                    <input type="number" name="externa" id="externa">
+                                                </div>
+                                            </fieldset>
+                                            <br/>
+                                            <fieldset class="fieldform3">
+                                                <div class="form-group">
+                                                    <label for="cotovelo">Cotovelo</label>
+                                                    <input type="checkbox" name="cotovelo" id="cotovelo">
+                                                    <br/><br/>
+                                                    <label for="flexao">Flexão</label>
+                                                    <input type="number" name="flexao" id="flexao2">
+                                                    <br/><br/>
+                                                    <label for="extensao">Extensão</label>
+                                                    <input type="number" name="extensao" id="extensao2">
+                                                </div>
+                                            </fieldset>
                                             <!-- <div class="form-group">
                                                 <label for="radiolnar">Radiolnar</label>
                                                 <input type="checkbox" name="radiolnar" id="radiolnar">
@@ -473,16 +501,25 @@
                                                     <option>Supinação</option>
                                                 </select>
                                             </div> -->
-                                            <div class="form-group">
-                                                <label for="punho">Punho</label>
-                                                <input type="checkbox" name="punho" id="punho">
-                                                <select class="forcadctrl">
-                                                    <option>Flexão</option>
-                                                    <option>Extensão</option>
-                                                    <option>Adução</option>
-                                                    <option>Abdução</option>
-                                                 </select>
-                                            </div>
+                                            <br/>
+                                            <fieldset class="fieldform3">
+                                                <div class="form-group">
+                                                    <label for="punho">Punho</label>
+                                                    <input type="checkbox" name="punho" id="punho">
+                                                    <br/><br/>
+                                                    <label for="flexao">Flexão</label>
+                                                    <input type="number" name="flexao" id="flexao3">
+                                                    <br/><br/>
+                                                    <label for="extensao">Extensão</label>
+                                                    <input type="number" name="extensao" id="extensao3">
+                                                    <br/><br/>
+                                                    <label for="aducao">Adução</label>
+                                                    <input type="number" name="aducao" id="aducao3">
+                                                    <br/><br/>
+                                                    <label for="abducao">Abdução</label>
+                                                    <input type="number" name="abducao" id="abducao3">
+                                                </div>
+                                            </fieldset>
                                             <!-- <div class="form-group">
                                                 <label for="carpodopolegar">Carpometacárpica do Polegar</label>
                                                 <input type="checkbox" name="carpodopolegar" id="carpodopolegar">
@@ -520,36 +557,65 @@
                                                         <option>Extensão Int. 2 ao 5 dedo</option>
                                                     </select>
                                             </div> -->
-                                            <div class="form-group">
-                                                <label for="quadril">Quadril</label>
-                                                <input type="checkbox" name="quadril" id="quadril">
-                                                <select class="forcadctrl">
-                                                        <option>Flexão</option>
-                                                        <option>Extensão</option>
-                                                        <option>Adução</option>
-                                                        <option>Abdução</option>
-                                                        <option>Rotação Interna</option>
-                                                        <option>Rotação Externa</option>
-                                                     </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="joelho">Joelho</label>
-                                                <input type="checkbox" name="joelho" id="joelho">
-                                                <select class="forcadctrl">
-                                                            <option>Flexão</option>
-                                                            <option>Extensão</option>
-                                                            </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="tornozelo">Tornozelo</label>
-                                                <input type="checkbox" name="tornozelo" id="tornozelo">
-                                                <select class="forcadctrl">
-                                                    <option>Flexão Dorsal</option>
-                                                    <option>Flexão Plantar</option>
-                                                    <option>Eversão</option>
-                                                    <option>Inversão</option>
-                                                 </select>
-                                            </div>
+                                            <br/>
+                                            <fieldset class="fieldform3">
+                                                <div class="form-group">
+                                                    <label for="quadril">Quadril</label>
+                                                    <input type="checkbox" name="quadril" id="quadril">
+                                                    <br/><br/>
+                                                    <label for="flexao4">Flexão</label>
+                                                    <input type="number" name="flexao" id="flexao4">
+                                                    <br/><br/>
+                                                    <label for="extensao4">Extensão</label>
+                                                    <input type="number" name="extensao" id="extensao4">
+                                                    <br/><br/>
+                                                    <label for="aducao4">Adução</label>
+                                                    <input type="number" name="aducao" id="aducao4">
+                                                    <br/><br/>
+                                                    <label for="abducao4">Abdução</label>
+                                                    <input type="number" name="abducao" id="abducao4">
+                                                    <br/><br/>
+                                                    <label for="rtinterna4">Rotação Interna</label>
+                                                    <input type="number" name="rtinterna" id="rtinterna4">
+                                                    <br/><br/>
+                                                    <label for="trexterna4">Rotação Externa</label>
+                                                    <input type="number" name="trexterna4" id="trexterna4">
+                                                </div>
+                                            </fieldset>
+                                            <br/>
+                                            <fieldset class="fieldform3">
+                                                <div class="form-group">
+                                                    <label for="joelho">Joelho</label>
+                                                    <input type="checkbox" name="joelho" id="joelho">
+                                                    <br/><br/>
+                                                    <label for="flexao5">Flexão</label>
+                                                    <input type="number" name="flexao5" id="flexao5">
+                                                    <br/><br/>
+                                                    <label for="extensao5">Extensão</label>
+                                                    <input type="number" name="extensao5" id="extensao5">
+                                                    <br/><br/>
+                                                </div>
+                                            </fieldset>
+                                            <br/>
+                                            <fieldset class="fieldform3">
+                                                <div class="form-group">
+                                                    <label for="tornozelo">Tornozelo</label>
+                                                    <input type="checkbox" name="tornozelo" id="tornozelo">
+                                                    <br/><br/>
+                                                    <label for="flexaodorsal6">Flexão Dorsal</label>
+                                                    <input type="number" name="flexaodorsal6" id="flexaodorsal6">
+                                                    <br/><br/>
+                                                    <label for="flexaoplantar6">Flexão Plantar</label>
+                                                    <input type="number" name="flexaoplantar6" id="flexaoplantar6">
+                                                    <br/><br/>
+                                                    <label for="eversao6">Eversão</label>
+                                                    <input type="number" name="eversao6" id="eversao6">
+                                                    <br/><br/>
+                                                    <label for="inversao6">Inversão</label>
+                                                    <input type="number" name="inversao6" id="inversao6">
+                                                </div>
+                                            </fieldset>
+
                                             <!-- <div class="form-group">
                                                 <label for="metatarsofalangianas">Metatarsofalangianas</label>
                                                 <input type="checkbox" name="metatarsofalangianas" id="metatarsofalangianas">
