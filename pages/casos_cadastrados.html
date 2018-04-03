@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Demonstração de Paginas Para o Projeto de Fisio">
+    <meta name="author" content="Cristian Tinôco">
 
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
@@ -22,6 +22,9 @@
 
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!--Meu CSS -->
+    <link href="../dist/css/meu.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -260,64 +263,57 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
 
+                </div>
+                <!-- /.sidebar-collapse Menu Lateral-->
             </div>
             <!-- /.navbar-static-side -->
         </nav>
 
         <!-- Page Content -->
         <div id="page-wrapper">
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Casos</h1>
+                        <h1 class="page-header">Procedimentos</h1>
                         <div>
-                            <table id="dataTables-example" class="table table-striped table-bordered table-hover">
+                            <table class="table table-striped">
                                 <thead>
                                     <tr>
-                                        <td>Nome</td>
-                                        <td>Data de Cadastro</td>
-                                        <td>Proprietario</td>
+                                        <td>Professor</td>
+                                        <td>Data De Cadastro</td>
+                                        <td>Patologia</td>
                                         <td>Opções</td>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <td>Exemplo</td>
+                                    <td>Matheus</td>
                                     <td>25/05/2018</td>
-                                    <td>Marcos Silva</td>
+                                    <td>Lesão Medular</td>
                                     <td>
-                                        <a href="criar_caso.html">
-                                            <span class="glyphicon glyphicon-plus-sign"></span>
+                                        <a href="vincular_aluno.html">
+                                            <span class="glyphicon glyphicon-user"></span>
                                         </a>|&nbsp;
-                                        <a href="criar_caso.html">
+                                        <a href="#">
                                             <span class="glyphicon glyphicon-pencil"></span>
                                         </a>|&nbsp;
                                         <a href="#">
                                             <span class="glyphicon glyphicon-trash"></span>
-                                        </a>| &nbsp;
-                                        <a href="vincular_aluno.html">
-                                            <span class="glyphicon glyphicon-user"></span>
-                                        </a>|
+                                        </a>|&nbsp;
                                         <a href="visualizar_casos.html">
                                             <span class="glyphicon glyphicon-eye-open"></span>
                                         </a>
                                     </td>
-                                </tbody>
 
-                            </table>
-                        </div>
-                           <form  class="form-control" action="#">
-                                    <button class="btn-primary">Novo Caso</button>
-                           </form>
-                                       <a href="#">
-                                            <span class="glyphicon glyphicon-user"></span>
-                                        </a>
-                                    </td>
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-                    <!-- /.col-lg-12 -->
+        </div>
+                        <!-- Conteudo da Pagina -->
+                    </section>
+                    <!-- Setor da pagina-->
                 </div>
                 <!-- /.row -->
             </div>
@@ -337,21 +333,8 @@
     <!-- Metis Menu Plugin JavaScript -->
     <script src="../vendor/metisMenu/metisMenu.min.js"></script>
 
-    <!-- DataTables JavaScript -->
-    <script src="../vendor/datatables/js/jquery.dataTables.min.js"></script>
-    <script src="../vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
-    <script src="../vendor/datatables-responsive/dataTables.responsive.js"></script>
-
     <!-- Custom Theme JavaScript -->
     <script src="../dist/js/sb-admin-2.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $('#dataTables-example').DataTable({
-                responsive: true
-            });
-        });
-    </script>
 
 </body>
 
