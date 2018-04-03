@@ -95,6 +95,20 @@
         border-radius: 10px;
     }
     
+    .fieldform3 {
+        width: auto;
+        min-width: 0;
+        padding: 20px;
+        margin: 0;
+        border: 2px solid #555;
+        border-radius: 10px;
+    }
+    
+    .legend_aux {
+        width: auto;
+        margin-bottom: 1px;
+    }
+    
     #procedimentos {}
     
     .alnprof {

@@ -273,61 +273,54 @@
 
         <!-- Page Content -->
         <div id="page-wrapper">
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Cadastrar Caso</h1>
-                    </div>
-                    <!-- /.col-lg-12 -->
-                    <section>
-                        <div id="procedimentos">
-                            <fieldset class="fieldform2">
-                                <h2 class="page-header">Anaminese do Paciente</h2>
-                                <form action="criar_caso2.html">
-                                    <div class="form-group">
-                                        <label for="nome">Nome</label>
-                                        <input type="text" name="nome" id="nome">
+                        <h1 class="page-header">Vincular Alunos</h1>
+                        <div class="form-group">
+                            <form action="#">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <div class="input-group-btn">
+                                      <button class="btn btn-default" type="submit">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                      </button>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="idade">Idade</label>
-                                        <input type="text" name="idade" id="idade">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="sexo">Sexo</label>
-                                        <input type="text" name="sexo" id="sexo">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Estado Civil</label>
-                                        <select class="forcadctrl">
-                                            <option>Casado</option>
-                                            <option>Solteiro</option>
-                                            <option>Divorciado</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Renda Mensal</label>
-                                        <select class="forcadctrl">
-                                                <option>Nenhum</option>
-                                                <option>Até R$ 1000,00 </option>
-                                                <option>Até R$ 2000,00 </option>
-                                                <option>Mais que R$ 2000,00 </option>
-                                            </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Filhos</label>
-                                        <select class="forcadctrl">
-                                                    <option>Nenhum</option>
-                                                    <option>Até 2 </option>
-                                                    <option>Até 4 </option>
-                                                    <option>Mais que 4 </option>
-                                                </select>
-                                    </div>
-                                    <input type="submit" class="btn btn-default" value="Avançar">
-                                </form>
-                                <!-- Fim do Formulario -->
-                            </fieldset>
-                            <!-- Fim do fieldset -->
+                            </form>
                         </div>
+                        <div class="form-group">
+                            <form action="#">  
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <td>Nome Do Aluno</td>
+                                            <td>Instituição</td>
+                                            <td>Cidade</td>
+                                            <td>Vincular</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <td>Matheus</td>
+                                        <td>Dom Pedro II</td>
+                                        <td>Salvador</td>
+                                        <td><input type="radio"></td>
+
+                                    </tbody>
+                                </table>
+
+                                <div class="col-sm-2">
+                                    <label>Inicio Do Vinculo</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col-sm-2">
+                                    <label>Termino Do Vinculo</label>
+                                    <input type="date" class="form-control">
+                                </div>
+
+                            </form>
+                        </div>
+        </div>
                         <!-- Conteudo da Pagina -->
                     </section>
                     <!-- Setor da pagina-->

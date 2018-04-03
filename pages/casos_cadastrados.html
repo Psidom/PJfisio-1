@@ -273,61 +273,44 @@
 
         <!-- Page Content -->
         <div id="page-wrapper">
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Cadastrar Caso</h1>
-                    </div>
-                    <!-- /.col-lg-12 -->
-                    <section>
-                        <div id="procedimentos">
-                            <fieldset class="fieldform2">
-                                <h2 class="page-header">Anaminese do Paciente</h2>
-                                <form action="criar_caso2.html">
-                                    <div class="form-group">
-                                        <label for="nome">Nome</label>
-                                        <input type="text" name="nome" id="nome">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="idade">Idade</label>
-                                        <input type="text" name="idade" id="idade">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="sexo">Sexo</label>
-                                        <input type="text" name="sexo" id="sexo">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Estado Civil</label>
-                                        <select class="forcadctrl">
-                                            <option>Casado</option>
-                                            <option>Solteiro</option>
-                                            <option>Divorciado</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Renda Mensal</label>
-                                        <select class="forcadctrl">
-                                                <option>Nenhum</option>
-                                                <option>Até R$ 1000,00 </option>
-                                                <option>Até R$ 2000,00 </option>
-                                                <option>Mais que R$ 2000,00 </option>
-                                            </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Filhos</label>
-                                        <select class="forcadctrl">
-                                                    <option>Nenhum</option>
-                                                    <option>Até 2 </option>
-                                                    <option>Até 4 </option>
-                                                    <option>Mais que 4 </option>
-                                                </select>
-                                    </div>
-                                    <input type="submit" class="btn btn-default" value="Avançar">
-                                </form>
-                                <!-- Fim do Formulario -->
-                            </fieldset>
-                            <!-- Fim do fieldset -->
+                        <h1 class="page-header">Procedimentos</h1>
+                        <div>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <td>Professor</td>
+                                        <td>Data De Cadastro</td>
+                                        <td>Patologia</td>
+                                        <td>Opções</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <td>Matheus</td>
+                                    <td>25/05/2018</td>
+                                    <td>Lesão Medular</td>
+                                    <td>
+                                        <a href="vincular_aluno.html">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                        </a>|&nbsp;
+                                        <a href="#">
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                        </a>|&nbsp;
+                                        <a href="#">
+                                            <span class="glyphicon glyphicon-trash"></span>
+                                        </a>|&nbsp;
+                                        <a href="visualizar_casos.html">
+                                            <span class="glyphicon glyphicon-eye-open"></span>
+                                        </a>
+                                    </td>
+
+                                </tbody>
+                            </table>
                         </div>
+        </div>
                         <!-- Conteudo da Pagina -->
                     </section>
                     <!-- Setor da pagina-->
