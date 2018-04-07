@@ -22,6 +22,8 @@
 
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--Meu CSS -->
+    <link href="../dist/css/meu.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -287,17 +289,11 @@
                                     <td>Marcos Silva</td>
                                     <td>
                                         <a href="criar_caso.html">
-                                            <span class="glyphicon glyphicon-plus-sign"></span>
-                                        </a>|&nbsp;
-                                        <a href="criar_caso.html">
                                             <span class="glyphicon glyphicon-pencil"></span>
                                         </a>|&nbsp;
                                         <a href="#">
                                             <span class="glyphicon glyphicon-trash"></span>
                                         </a>| &nbsp;
-                                        <a href="vincular_aluno.html">
-                                            <span class="glyphicon glyphicon-user"></span>
-                                        </a>|
                                         <a href="visualizar_casos.html">
                                             <span class="glyphicon glyphicon-eye-open"></span>
                                         </a>
@@ -306,24 +302,27 @@
 
                             </table>
                         </div>
-                           <form  class="form-control" action="#">
-                                    <button class="btn-primary">Novo Caso</button>
-                           </form>
-                                       <a href="#">
-                                            <span class="glyphicon glyphicon-user"></span>
-                                        </a>
-                                    </td>
-                                </tbody>
-                            </table>
-                        </div>
+                        <form action="criar_caso.html">
+                            <div class="form-group">
+                                <button class="btn btn-primary">Novo Caso</button> &nbsp;&nbsp;&nbsp;
+                                <a class="btn btn-primary" href="vincular_aluno.html">
+                                       Vincular casos <span class="glyphicon glyphicon-user"></span>
+                                    </a> &nbsp;
+                            </div>
+                        </form>
+
+                        </td>
+                        </tbody>
+                        </table>
                     </div>
-                    <!-- /.col-lg-12 -->
                 </div>
-                <!-- /.row -->
+                <!-- /.col-lg-12 -->
             </div>
-            <!-- /.container-fluid -->
+            <!-- /.row -->
         </div>
-        <!-- /#page-wrapper -->
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /#page-wrapper -->
 
     </div>
     <!-- /#wrapper -->
