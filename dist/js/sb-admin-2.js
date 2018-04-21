@@ -45,3 +45,4 @@ $(function() {
         }
     }
 });
+$('input').change(function(e) { var valor = $(this).val();    $(this).val(valor.replace(/[-]/g, ''))});
